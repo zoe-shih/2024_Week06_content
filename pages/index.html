@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap" rel="stylesheet">
+    <title>content-home</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <main>
+      <section class="container">
+        <div class="p-5 mb-4 rounded-3 postition-relative">
+            <picture>
+                <source media="(min-width: 992px)" srcset="../assets/images/bammer.png">
+                <img src="../assets/images/banner-sm.png" alt="">
+            </picture>
+            <div class="container-fluid py-5 postition-absolute">
+              <h1 class="display-5 fw-bold">獻給新世代的生活風格誌</h1>
+              <p class="col-md-8 fs-4">一起探索生活的無限可能</p>
+              <button class="btn btn-secondary-200 text-white" type="button">馬上訂閱</button>
+            </div>
+          </div>
+      </section>
+    </main>
+    <div class="container">
+      <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1">
+        <div class="col">
+          <picture>
+            <source media="(min-width: 992px)" srcset="../assets/images/theme-1.png">
+            <img class="w-100" src="../assets/images/theme-1-sm.png" alt="">
+          </picture>
+        </div>
+        <div class="col">
+          <picture>
+            <source media="(min-width: 992px)" srcset="../assets/images/theme-1.png">
+            <img class="w-100" src="../assets/images/theme-1-sm.png" alt="">
+          </picture>
+        </div>
+        <div class="col">
+          <picture>
+            <source media="(min-width: 992px)" srcset="../assets/images/theme-1.png">
+            <img class="w-100" src="../assets/images/theme-1-sm.png" alt="">
+          </picture>
+        </div>
+        <div class="col">
+          <picture>
+            <source media="(min-width: 992px)" srcset="../assets/images/theme-1.png">
+            <img class="w-100" src="../assets/images/theme-1-sm.png" alt="">
+          </picture>
+        </div>
+        <!-- <div class="col">
+          <picture>
+            <source media="(min-width: 992px)" srcset="../assets/images/theme-1.png">
+            <img src="../assets/images/theme-1-sm.png" alt="">
+          </picture>
+        </div>
+        <div class="col">
+          <picture>
+            <source media="(min-width: 992px)" srcset="../assets/images/theme-1.png">
+            <img src="../assets/images/theme-1-sm.png" alt="">
+          </picture>
+        </div>
+        <div class="col">
+          <picture>
+            <source media="(min-width: 992px)" srcset="../assets/images/theme-1.png">
+            <img src="../assets/images/theme-1-sm.png" alt="">
+          </picture>
+        </div>
+        <div class="col">
+          <picture>
+            <source media="(min-width: 992px)" srcset="../assets/images/theme-1.png">
+            <img src="../assets/images/theme-1-sm.png" alt="">
+          </picture>
+        </div> -->
+      </div>
+    </div>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
